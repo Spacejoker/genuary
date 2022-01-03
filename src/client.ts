@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import "./styles.css"
 import {registerEventHandlers} from './event_handlers';
 import {initScene} from './scene';
-import {generate} from './day/day01_ten_thousand';
+import {generate} from './day/day02';
 
 const {scene, camera, renderer} = initScene();
 

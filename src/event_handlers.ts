@@ -1,4 +1,3 @@
-import {defaultGenerationParams} from './api';
 import * as THREE from 'three'
 
 export function getValueById(id: string) {
