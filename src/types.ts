@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 
-export interface Scene {
+export interface RenderStuff {
   scene: any;
   camera: THREE.PerspectiveCamera;
   renderer: any;

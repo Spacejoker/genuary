@@ -1,10 +1,10 @@
 // Dithering
 import * as THREE from 'three'
-import {Scene} from '.././types';
+import {RenderStuff} from '.././types';
 //require('source-map-support').install();
 const image = require('../assets/test.png')
 
-export function generate(scene: Scene) {
+export function generate(scene: RenderStuff) {
   const w = 430;
   const h = 398;
 

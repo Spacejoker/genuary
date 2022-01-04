@@ -1,7 +1,7 @@
 import * as THREE from 'three'
-import {Scene} from '.././types';
+import {RenderStuff} from '.././types';
 
-export function generate(scene: Scene) {
+export function generate(scene: RenderStuff) {
   return async function () {
     const points = new Array(10000).fill([]).map(() => [Math.random()-.5, Math.random()-.5])
     //const rsp : any = await dealWithRequest(params);

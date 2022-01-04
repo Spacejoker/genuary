@@ -1,7 +1,7 @@
 import * as THREE from 'three'
-import {Scene} from './types';
+import {RenderStuff} from './types';
 
-export function initScene() : Scene{
+export function initScene() : RenderStuff{
   const loader = new THREE.CubeTextureLoader();
   const scene = new THREE.Scene()
   const camera = new THREE.PerspectiveCamera(
